@@ -2,9 +2,10 @@ package domain;
 
 public class Task {
     private String title;
-    private Boolean done;
+    private boolean done;
+    private int id;
 
-    public Task(String title) {
+    public Task(int id, String title) {
         this.title = title;
         this.done = false;
     }
